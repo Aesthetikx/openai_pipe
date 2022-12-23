@@ -152,14 +152,16 @@ Install the gem by executing:
 
 ## Setup
 
+This library uses [quick_openai](https://github.com/Aesthetikx/quick_openai') which itself uses [ruby-openai](https://github.com/alexrudall/ruby-openai), so you may want to familiarise yourself with those projects first.
+
+This library uses OpenAI GPT3 to generate responses, so you will need to have your access token available in ENV. In .bashrc or equivalent,
+```bash
+export OPENAI_ACCESS_TOKEN=mytoken
+```
+
 By default the executable is called `openai_pipe`. It is reccommended to alias this command to something shorter in .bashrc or equivalent, e.g.
 ```bash
 alias ai="openai_pipe"
-```
-
-You will also need to have your OpenAI access token in ENV, so also in .bashrc or equivalent,
-```bash
-export OPENAI_ACCESS_TOKEN=mytoken
 ```
 
 ## Notes
