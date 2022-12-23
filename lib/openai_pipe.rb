@@ -4,5 +4,8 @@ require_relative "openai_pipe/version"
 
 module OpenAIPipe
   class Error < StandardError; end
-  # Your code goes here...
+
+  def self.exe
+    puts 'Hello World!'
+  end
 end
