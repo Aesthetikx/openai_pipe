@@ -2,7 +2,7 @@
 
 require_relative "openai_pipe/version"
 
-module OpenaiPipe
+module OpenAIPipe
   class Error < StandardError; end
   # Your code goes here...
 end

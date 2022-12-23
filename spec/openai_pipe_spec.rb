@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-RSpec.describe OpenaiPipe do
+RSpec.describe OpenAIPipe do
   it "has a version number" do
-    expect(OpenaiPipe::VERSION).not_to be nil
+    expect(OpenAIPipe::VERSION).not_to be nil
   end
 
   it "does something useful" do

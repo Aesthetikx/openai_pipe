@@ -4,7 +4,7 @@ require_relative "lib/openai_pipe/version"
 
 Gem::Specification.new do |spec|
   spec.name = "openai_pipe"
-  spec.version = OpenaiPipe::VERSION
+  spec.version = OpenAIPipe::VERSION
   spec.authors = ["John DeSilva"]
   spec.email = ["desilvjo@umich.edu"]
 
