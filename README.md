@@ -1,18 +1,7 @@
 # OpenAIPipe
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/openai_pipe`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
-## Installation
-
-Install the gem by executing:
-
-    $ gem install openai_pipe
-
-## Usage
-
-TODO: Write usage instructions here
+This library provides a UNIX-ey interface to OpenAI.
+See [Installation](#installation) and [Setup](#setup) below, but first, some examples.
 
 ## Examples
 
@@ -154,6 +143,28 @@ index 0f82357..cc57fab 100644
 $ ruby -e "$(ai write me a python script that prints the current month | ai translate this into ruby)" | ai translate this into French
 Le mois courant est Décembre.
 ```
+
+## Installation
+
+Install the gem by executing:
+
+    $ gem install openai_pipe
+
+## Setup
+
+By default the executable is called `openai_pipe`. It is reccommended to alias this command to something shorter in .bashrc or equivalent, e.g.
+```bash
+alias ai="openai_pipe"
+```
+
+You will also need to have your OpenAI access token in ENV, so also in .bashrc or equivalent,
+```bash
+export OPENAI_ACCESS_TOKEN=mytoken
+```
+
+## Notes
+
+Be aware that there is a cost associated every time GPT3 is invoked, so be mindful of your account usage. Also be wary of sending sensitive data to OpenAI, and also wary of arbitrarily executing scripts or programs that GPT3 generates.
 
 ## Development
 
