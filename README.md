@@ -152,7 +152,7 @@ Install the gem by executing:
 
 ## Setup
 
-This library uses [quick_openai](https://github.com/Aesthetikx/quick_openai') which itself uses [ruby-openai](https://github.com/alexrudall/ruby-openai), so you may want to familiarise yourself with those projects first.
+This library uses [quick_openai](https://github.com/Aesthetikx/quick_openai) which itself uses [ruby-openai](https://github.com/alexrudall/ruby-openai), so you may want to familiarise yourself with those projects first.
 
 This library uses OpenAI GPT3 to generate responses, so you will need to have your access token available in ENV. In .bashrc or equivalent,
 ```bash
