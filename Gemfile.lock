@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    openai_pipe (0.1.0)
+    openai_pipe (0.1.1)
       quick_openai (~> 0.1)
 
 GEM
