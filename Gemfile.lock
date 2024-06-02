@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     openai_pipe (0.1.3)
-      quick_openai (~> 0.1)
+      quick_openai (~> 0.1.3)
 
 GEM
   remote: https://rubygems.org/
