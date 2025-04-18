@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description = "Provides pipe and redirect functionality to quick_openai"
   spec.homepage = "https://www.github.com/Aesthetikx/openai_pipe"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 2.6.0"
+  spec.required_ruby_version = ">= 3.2"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://www.github.com/Aesthetikx/openai_pipe"
