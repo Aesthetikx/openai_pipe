@@ -14,7 +14,7 @@ module OpenAIPipe
 
     prompt = [input_from_arguments, input_from_pipe].compact.join("\n\n")
 
-    puts prompt.gpt3
+    puts prompt.gpt
   rescue QuickOpenAI::Error => e
     warn e.message
     exit 1
